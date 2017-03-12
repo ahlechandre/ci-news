@@ -1,0 +1,19 @@
+{
+    "name": "eduwiki",
+    "description": "The Eduwiki package.",
+    "authors": [
+        {
+            "name": "Alexandre Thebaldi",
+            "email": "ahlechandre@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eduwiki\\": "application/libraries/src/Eduwiki",
+            "Eloquent\\": "application/eloquent"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.4"
+    }
+}
